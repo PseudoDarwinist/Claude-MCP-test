@@ -12,7 +12,7 @@
             padding: 20px;
             background-color: #f0f0f0;
         }
-        h1 {
+        h1, h2 {
             color: #333;
             text-align: center;
             border-bottom: 2px solid #333;
@@ -23,10 +23,61 @@
             line-height: 1.6;
             font-size: 18px;
         }
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .social-links {
+            text-align: center;
+            padding: 20px;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to My Page</h1>
     <p>This is a simple welcome page created with Claude.</p>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Hi there! I'm a web developer passionate about creating clean and functional websites. I enjoy working with modern technologies and solving interesting problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects:</p>
+        <ul>
+            <li>E-commerce Platform</li>
+            <li>Weather Application</li>
+            <li>Task Management System</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me at: example@email.com</p>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
